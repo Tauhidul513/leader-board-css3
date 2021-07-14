@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-box {
+    background-color: #2D25A0;
+    width: 1250px;
+    height: 677px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-info {
+    margin-top: 188px;
+    margin-left: 156px;
+    margin-right: 102px;
+}
+
+.box-info h1 {
+    font-size: 2.5em;
+    color: #FFFFFF;
+}
+
+.box-info .top-button {
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: #FFFFFF;
+}
+
+.top-box-banner img {
+    width: 556px;
+    height: 438px;
+    margin-right: 140px;
+    margin-top: 153px;
+}
+
+
+/* Player details  */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F1FF;
+}
+
+.football-players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 70px;
+    grid-gap: 30px;
+}
+
+.player {
+    width: 330px;
+    height: 456px;
+    background-color: #FFFFFF;
+    /* align-items: center; */
+}
+
+.player img {
+    width: 300px;
+    height: 256px;
+    margin: 15px;
+}
+
+.player .player-info {
+    width: 300px;
+    height: 154px;
+    margin: 1px 15px 33px;
+}
+
+
+/* footer part  */
+
+footer {
+    margin-top: 130px;
+}
+
+footer img {
+    width: 483.87px;
+    height: 110px;
+    padding-bottom: 10px;
+}
+
+.icon,
+.copyright {
+    text-align: center;
+}
+
+.icon .fab {
+    padding: 10.5px;
+}
+
+@media only screen and (max-width:688px) {}

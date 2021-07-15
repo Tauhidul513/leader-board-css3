@@ -1,0 +1,179 @@
+         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+         body {
+             font-family: 'Poppins', sans-serif;
+             margin: 0%;
+             width: 1250px;
+         }
+         /*-------------------
+  banner part 
+ ------------------- */
+         /* .container {
+             width: 1250px;
+         } */
+         
+         .top-box {
+             display: grid;
+             grid-template-columns: repeat(2, 1fr);
+             /* display: flex;
+        justify-content: space-between; */
+             background-color: #2D25A0;
+         }
+         
+         .top-box .box1 {
+             /* margin-left: 120px; */
+             margin-left: 130px;
+             margin-right: 54.667px;
+         }
+         
+         .top-box .promo {
+             /* width: 450px; */
+             width: 445px;
+             height: 230px;
+             margin-top: 185.56px;
+             /* margin-bottom: 7px; */
+             margin-bottom: 0%;
+         }
+         
+         .top-box .promo h1 {
+             color: #FFFFFF;
+             font-size: 3em;
+             line-height: 50px;
+         }
+         
+         .top-box .btn {
+             margin-top: 20px;
+         }
+         
+         .top-box .watch {
+             background-color: #E02C6D;
+             width: 168px;
+             height: 44px;
+             border: none;
+         }
+         
+         .top-box .btn a {
+             text-decoration: none;
+             color: #FFFFFF;
+         }
+         
+         .top-box .banner img {
+             width: 500px;
+             height: 438px;
+             margin-left: 75px;
+             margin-top: 153px;
+             margin-bottom: 86px;
+         }
+         /*--------------
+banner ends 
+--------------- */
+         /*-------------------------
+football player part 
+------------------------ */
+         
+         .container {
+             width: 100%;
+         }
+         
+         .football {
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             background-color: #F3F1FF;
+             padding-bottom: 50px;
+         }
+         
+         .football-players {
+             display: grid;
+             grid-template-columns: repeat(3, 1fr);
+             padding-top: 70px;
+             grid-gap: 30px;
+         }
+         
+         .player {
+             width: 330px;
+             height: 456px;
+             background-color: #FFFFFF;
+             align-items: center;
+             overflow: hidden;
+         }
+         
+         .player img {
+             width: 300px;
+             height: 256px;
+             margin: 15px;
+         }
+         
+         .player .player-info {
+             width: 300px;
+             height: 154px;
+             margin: 1px 15px 33px;
+         }
+         
+         .player:hover .thumbnail {
+             transform: scale(1.3);
+             transition: transform 2s;
+         }
+         /*----------------
+          Extra part 1
+         --------------- */
+         
+         .extra-1 {
+             padding: 50px 70px;
+             background-color: aqua;
+         }
+         
+         .youtube {
+             display: flex;
+             justify-content: space-between;
+             /* align-items: center; */
+         }
+         /* Extra-2  */
+         
+         .copa-america {
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             background-color: #F3F1FF;
+             padding-bottom: 50px;
+         }
+         
+         .copa-america .final {
+             display: grid;
+             grid-template-columns: repeat(3, 1fr);
+             padding-top: 70px;
+             grid-gap: 30px;
+         }
+         
+         .results {
+             width: 330px;
+             height: 356px;
+             background-color: lightpink;
+             align-items: center;
+             padding: 20px;
+         }
+         
+         .see {
+             background-color: springgreen;
+             width: 168px;
+             height: 44px;
+             border: none;
+         }
+         
+         .see a {
+             text-decoration: none;
+             font-weight: 700;
+         }
+         /*----------------------
+  Media for mobile 
+ --------------------- */
+         /* @media only screen and (max-width:688px) {
+         .container {
+             width: 80%;
+         }
+         .top-box {
+             grid-template-columns: repeat(1, 1fr);
+         }
+         .box1,
+         .banner {
+             flex-direction: column;
+         } */

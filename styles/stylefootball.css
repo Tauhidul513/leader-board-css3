@@ -1,24 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-.body {
+body {
     font-family: 'Poppins', sans-serif;
 }
 
-.top-box {
+
+/* top-box chilo */
+
+header {
     background-color: #2D25A0;
+}
+
+.container {
     width: 1250px;
-    height: 677px;
+    /* height: 677px; */
 }
 
 .top {
     display: flex;
     justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
 }
 
-.box-info {
-    margin-top: 188px;
-    margin-left: 156px;
-    margin-right: 102px;
+.top-text {
+    padding-top: 188px;
+    padding-left: 156px;
+    padding-right: 102px;
 }
+
+.top-text .top-button {
+    padding-bottom: 169px;
+}
+
+.banner img {
+    padding-bottom: 86px;
+}
+
+
+/* .banner img {
+    padding-top: 153px;
+    padding-right: 140px;
+    padding-bottom: 86px;
+} */
 
 .box-info h1 {
     font-size: 2.5em;
@@ -33,7 +56,7 @@
     color: #FFFFFF;
 }
 
-.top-box-banner img {
+.box-info img {
     width: 556px;
     height: 438px;
     margin-right: 140px;
@@ -79,11 +102,13 @@ main {
 
 /* footer part  */
 
-footer {
+.last-box {
     margin-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 
-footer img {
+.last-box img {
     width: 483.87px;
     height: 110px;
     padding-bottom: 10px;
@@ -98,4 +123,37 @@ footer img {
     padding: 10.5px;
 }
 
-@media only screen and (max-width:688px) {}
+@media only screen and (max-width:688px) {
+    /* .top-box, */
+    .container {
+        width: 100%;
+    }
+    .top,
+    .football-players,
+    .last-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .box-info,
+    .player {
+        flex-direction: column;
+    }
+}
+
+
+/* @media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+    .top-box,
+    .football-players,
+    .last-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .top,
+    .player,
+    .image,
+    .icon,
+    .copyright {
+        flex-direction: column;
+    }
+} */
